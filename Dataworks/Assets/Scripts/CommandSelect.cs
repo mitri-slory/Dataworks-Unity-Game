@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Dmitri's Script with the exception of TickDown Method at the bottom
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

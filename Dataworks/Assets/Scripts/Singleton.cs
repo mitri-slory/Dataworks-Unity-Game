@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿//Dmitri's Script
+using UnityEngine;
 using System.Collections;
 
 public class Singleton<T> : MonoBehaviour where T : MonoBehaviour {
