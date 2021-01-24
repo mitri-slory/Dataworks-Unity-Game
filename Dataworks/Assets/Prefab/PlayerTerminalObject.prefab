@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8272414456345590819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8272414456345590828}
+  - component: {fileID: 8272414456345590829}
+  - component: {fileID: 8272414456345590831}
+  - component: {fileID: 8272414456345590830}
+  m_Layer: 0
+  m_Name: PlayerTerminalObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8272414456345590828
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8272414456345590819}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5881382, y: 1.9957141, z: -12.953596}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8272414456345590829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8272414456345590819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf75ddf66e535f4a82ac82b12ac040b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  command: 
+  pipe1: {fileID: 0}
+  collidedPipe1: {fileID: 0}
+  pipe1Name: 
+  collidedPipe1Name: 
+  consoleText: {fileID: 0}
+  inputText: {fileID: 0}
+  SlideRotatePanelActive: 0
+  SlideCommandsPanelActive: 0
+  RotateCommandsPanelActive: 0
+  AddSubstractPanelActive: 0
+  SlideRotatePanel: {fileID: 0}
+  SlideCommandsPanel: {fileID: 0}
+  RotateCommandsPanel: {fileID: 0}
+  AddSubstractPanel: {fileID: 0}
+  numOfCommands: {fileID: 0}
+  loseScreen: {fileID: 0}
+  enterButton: {fileID: 0}
+  GameCanvas: {fileID: 0}
+  gs2: {fileID: 0}
+  Counter: {fileID: 0}
+  CounterContainer: {fileID: 0}
+  OnScreenTerminal: {fileID: 0}
+  LevelDialogueName: {fileID: 0}
+  LevelDialogueText: {fileID: 0}
+  LevelDialogueContinue: {fileID: 0}
+  DialougeBoxImage: {fileID: 0}
+  startingcount: 0
+  count: 0
+--- !u!114 &8272414456345590831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8272414456345590819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21cf754524af609489d181aeb07a331d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8272414456345590830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8272414456345590819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 933178f4ee080244693b1e8c9ff126cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinCommandCanvas: {fileID: 0}
+  HighScoreUpdateText: {fileID: 0}
+  Score: {fileID: 0}
+  highScore: {fileID: 0}
+  cs: {fileID: 8272414456345590829}
+  TotalCommandsText: {fileID: 0}
+  SuccessCommandsText: {fileID: 0}
+  FullSyntaxCommandsText: {fileID: 0}
+  PartialSyntaxCommandsText: {fileID: 0}
+  FailedCommandsText: {fileID: 0}
+  sceneID: 1

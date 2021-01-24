@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Title Scene/TitleScene.unity
+    guid: ac92bee5509ba9b48973fc33529782fd
+  - enabled: 1
+    path: Assets/Scenes/Hub/Hub.unity
+    guid: baa8d366b3a33dc4f8e62f6d28774e18
+  - enabled: 1
+    path: Assets/Scenes/Hub/LevelSelect.unity
+    guid: 155f63bf0a185fe4db52fb2e43358451
+  - enabled: 1
+    path: Assets/Scenes/Levels/Tutorial Zone/Intro Dialogue.unity
+    guid: b7c0a99ce0c883349b92c593264b4747
+  - enabled: 1
+    path: Assets/Scenes/Levels/Tutorial Zone/TutorialLevel.unity
+    guid: 0da4e1555ddefa5418a0251b7cc002c2
+  - enabled: 1
+    path: Assets/Scenes/Levels/Neighborhood Zone/Neighborhood_1.unity
+    guid: dfaee9c9927a5724f89dc5762f8d30e4
+  - enabled: 1
+    path: Assets/Scenes/Levels/Neighborhood Zone/Neighborhood_2.unity
+    guid: 202a9ddb34cfde54297310a8807f5502
+  - enabled: 1
+    path: Assets/Scenes/Levels/Subway Folder/Subway_1.unity
+    guid: e40d5da8a2056c944b72ae65b1680f78
+  - enabled: 1
+    path: Assets/Scenes/Levels/Subway Folder/Subway_2.unity
+    guid: 047f1436d949fd64f8c48fd7eb2052ca
+  - enabled: 1
+    path: Assets/Scenes/Levels/Metropolis Zone/Metropolis_1.unity
+    guid: 030774d8e7298a74794ae941875e71de
+  - enabled: 1
+    path: Assets/Scenes/Levels/Metropolis Zone/VillainReveal.unity
+    guid: 5c1219958596b4c49ab112c8e737177a
+  - enabled: 1
+    path: Assets/Scenes/Levels/Metropolis Zone/TBC.unity
+    guid: 3efaa83a64ef04c4da941e0d8dcff8a4
+  m_configObjects: {}
